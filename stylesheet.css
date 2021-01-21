@@ -28,13 +28,13 @@
     float:right;
   }
   h1{
-  color: rgb(252, 252, 250);
+    color:rgb(0, 0, 0);
   padding-left: 10px;
   font-size:50px;
   margin-top: 60px;
   }
   h2{
-    color:#fff;
+      color:rgb(0, 0, 0);
     font-size:30px;
     margin:40px;
   }
