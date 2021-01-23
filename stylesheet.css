@@ -1,10 +1,10 @@
 @media screen and (min-width:767px) { 
-  a:link {color:#fff; transition:2s;}
+  a:link {color:#fff;transition:2s;}
   a:visited{color:#fff;}
-  a:hover { color:#30e4f1; }
+  a:hover {color:#30e4f1;}
   body{
     font-family:"Avenir Next";
-    background-image: url("typewriter.jpg");
+    background-image:url("typewriter.jpg");
   }
   li{
     list-style: none;
@@ -12,85 +12,73 @@
   header{
     background-color:rgba(233,198,145,0.623);
     height:90px;
-    margin:4px;
   }
   .header-logo{
     float:left;
-    font-size:40px;
-    padding:10px 60px 0px 0px;
+    padding:10px 60px 0px 20px;
   }
   .header-list li{
     float:left;
     font-size:33px;
-    padding:20px 20px;
+    padding:20px 20px 0px 20px;
   }
   .twitter-timeline{
     float:right;
   }
   h1{
+    color:rgb(217, 237, 255);
+    font-size: 90px;
+    border-bottom: 2px solid white;
+  }
+  .contents{
+    margin:20px;
+    padding:10px;
+    background-color: rgba(232, 236, 255, 0.808);
+  }
+  p{
     color:rgb(0, 0, 0);
-  padding-left: 10px;
-  font-size:50px;
-  margin-top: 60px;
+    font-size:20px;
   }
-  h2{
-      color:rgb(0, 0, 0);
-    font-size:30px;
-    margin:40px;
+  .contents img{
+    width: 370px;
   }
-  .contents-item{
-    margin-left:260px;
-    width:720px;
-    min-height:500px;
-    height:1800px;
-    background-color:#e4e9ff;
-    margin-top:10px;
-    }
-    p{
-      color: rgb(44, 43, 43);
-      font-size:25px;
-      padding: 20px;
-      float: left;
-    }
   }
-  @media screen and (max-width:767px) { 
-    a:link {color:#fff; transition:2s;}
-    a:visited{color:#fff;}
-    a:hover { color:#30e4f1;}
-    body{
-      font-family: "Avenir Next";
-      background-image:url("typewriter.jpg")
+@media screen and (max-width:767px) { 
+  a:link {color:#fff; transition:2s;}
+  a:visited{color:#fff;}
+  a:hover { color:#30e4f1;}
+body{
+    font-family: "Avenir Next";
+    background-image:url("typewriter.jpg")
     }
-    header{
-      background-color:rgba(233,198,145,0.623);
-      height:110px;
-      margin:4px;
-    }
-    .header-logo{
-      float:left;
-      padding:15px 0px 17px 3px;
-    }
-    .header-list li{  
-    list-style: none;
-     font-size:20px;
-     padding-top:4px;
-    }
-    h1{
-      color:#fff;
-      padding-top:230px;
-      padding-left:20px;
-      font-size:40px;
+      header{
+        background-color:rgba(233,198,145,0.623);
+        height:110px;
+        margin:4px;
       }
-    h2{
-        color:#fff;
-        border-bottom:1px solid #fff;
-        font-size:40px;
+      .header-logo{
+        float:left;
+        padding:15px 0px 17px 3px;
       }
-      p{
-        color:#fff;
-        font-size: 20px;
-        padding: 20px;
+      .header-list li{  
+      list-style: none;
+       font-size:20px;
+       padding-top:4px;
       }
-     .contents-item img{
-        width: 440px;
-     }}
+.main{
+  margin-top:250px;
+}
+  h1{
+    color:whitesmoke;
+  }
+  .contents{
+    margin:20px;
+  }
+  p{
+    color:white;
+    font-size: 22px;
+  }
+ .contents img{
+    width: 300px;
+  }
+  }
